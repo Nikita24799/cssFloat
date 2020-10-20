@@ -1,0 +1,47 @@
+:root {
+    --dark-color: rgb(12, 89, 165); 
+    --light-color: rgb(93, 164, 235); 
+}
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    
+}
+
+.header {
+    background: var(--dark-color); 
+    color: rgb(241, 149, 11); 
+    width: 75%; 
+    margin: 0 auto; 
+    padding: 2rem; 
+    text-align: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 47%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    height: 65vh;
+    background: var(--light-color); 
+    padding: 8rem 2rem 3rem 2rem;/*top right bottom left*/ 
+    margin-top: -5rem;
+    text-align: justify;
+}
+
+img {
+    width: 300px;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.footer {
+    width: 75%;
+    margin: 0 auto;
+    --dark-color: rgb(12, 89, 165); 
+    --light-color: rgb(93, 164, 235); 
+     color: var(--light-color); 
+     text-align: center;
+     padding: 3rem;
+}
